@@ -1,0 +1,188 @@
+/* Woo Commerce - RCI Camp Reg */ 
+.content-area {
+    padding: 0px 0px !important; 
+}
+.woocommerce {
+    background: rgba(255,255,255,0.9);
+    margin-bottom: 30px;
+}
+.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
+width: 95%;
+margin: 0px auto;
+}
+.single.single-product .wpb_wrapper {
+    width: 76%;
+    margin: 0px auto;
+    border: 1px solid #f0f0f0;
+    box-shadow: 1px 3px 15px #ababab;
+    
+}
+.woocommerce a.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    background: #5784ad !important;
+    border-radius: 0px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    color: #fff !important;
+}
+a.woocommerce-button {
+    margin: 0 1px !important;
+}
+.woocommerce div.product div.images img {
+display: none !important;
+}
+.single-product.woocommerce .product .summary .price {
+display: none;
+}
+.woocommerce .woocommerce-breadcrumb {
+display: none;
+}
+.single-product.woocommerce .product .related.products {
+display: none;
+}
+.single-product.woocommerce .product .product-single-quantity {
+display: none;
+}
+.product_meta {
+display: none;
+}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    width: 80%;
+    margin: 0px auto;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 3px 5px 16px 4px #ccc;
+}
+.product h1.entry-title {
+    margin: 0px auto !important;
+    background: #51a3d5;
+    margin-top: 0px !important;
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    line-height: 2;
+    width: 104%;
+    margin-left: -2% !important;
+}
+.single.single-product .entry-meta {
+    display: none;
+}
+.single.single-product .site {
+    background-color: transparent !important;
+}
+.postid-5382 {
+    background-image: url("/wp-content/uploads/2019/10/DSCN3482e.jpg");
+    background-attachment: fixed !important;
+}
+.single.single-product .summary.entry-summary {
+    background: #fff;
+    padding: 0 20px !important;
+}
+.single.single-product #product-5382 {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.single.single-product a.reset_variations {
+    background: #77a464;
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.single.single-product p.price:before {
+    content: "Your Total";
+    padding-right: 10px;
+}
+.single.single-product p.price {
+    font-size: 28px !important;
+    text-align: right; 
+    padding: 4px;
+    
+}
+.woocommerce-variation-availability .wcwl_elements {
+    max-width: 100% !important;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger, .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+	display: none;
+}
+.woocommerce .product-name a:not(:hover) {
+color: inherit !important;
+text-decoration: none;
+font-weight: bold;
+font-size:1.2em;
+}
+.product-thumbnail, .product-quantity, .product-subtotal {
+	display: block !important;
+}
+
+
+
+/*Cart*/ 
+.woocommerce .product-remove a.remove {
+    color: #fff !important;
+    background: #600 !important;
+    font-weight: 300 !important;
+    padding: 0 !important;
+}
+.woocommerce table.shop_table {
+    margin: 0px auto !important;
+}
+.woocommerce-variation-price {
+    display: none !important;
+}
+
+
+
+
+/* Account Page */ 
+
+.woocommerce-account .woocommerce {
+    width: 80%;
+    margin: 20px auto;
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.woocommerce-MyAccount-content {
+    background: #fff;
+    padding: 20px;
+    min-height: 266px !important;
+}
+.woocommerce-account input.woocommerce-Input {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 25px;
+}
+nav.woocommerce-MyAccount-navigation a {
+    font-size: 22px !important;
+    font-weight: 300;
+    border-bottom: 1px dotted;
+    display: block;
+    padding: 4px 10px;
+}
+nav.woocommerce-MyAccount-navigation a:hover {
+    background: #51a3d5;
+    color: #fff;
+}
+div#wc-stripe-payment-request-button {
+    display: none !important;
+}
+
+
+
+
+@media (max-width: 680px) {
+
+.woocommerce-cart .woocommerce, .page-id-254412 .woocommerce, .woocommerce-checkout .woocommerce {
+    width: 98%;
+    margin: 5px auto;
+    padding: 5px;
+}
+.single.single-product .wpb_wrapper {
+    width: 95%;
+    margin: 0px auto;
+}
+}
